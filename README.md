@@ -1,6 +1,6 @@
 # NodoAme-for-CeVIOAI
 
-把一段文字变成 **CeVIO AI 歌声库唱出来的 WAV**，自动化操作：
+把一段文字变成 CeVIO AI 歌声库唱出来的 WAV——内置 NodoAme Core（MIT）负责曲谱生成，自动调用本机 CeVIO AI 完成渲染，无需手动操作其图形界面，一条命令即可完成：
 
 ```
 文本 ──VOICEVOX(朗读)──▶ 音高/音素 ──NodoAme──▶ .ccst 曲谱 ──CeVIO AI 歌声库──▶ WAV
