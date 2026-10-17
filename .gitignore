@@ -1,0 +1,21 @@
+# 运行时生成物（不入库）
+config.json
+voices.json
+*.wav
+output/
+runs/
+tmp/
+backup/
+
+# 编译中间文件
+*.bak
+*.new.exe
+obj/
+bin/obj/
+
+# 编辑器/系统
+.vs/
+.vscode/
+*.user
+Thumbs.db
+desktop.ini
